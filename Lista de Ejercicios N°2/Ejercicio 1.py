@@ -27,7 +27,8 @@ for i in range (1, filas):
 Numero = [24,50,12,9,3,6,7,15,150,149,115]
 
 if (opcionMenu!= "a" or opcionMenu!= "b" or opcionMenu!= "c"):
-    if opcionMenu =="a": 
+    
+    if opcionMenu =="a": ##Opcion a
         filas= int(input("Ingrese la cantidad de filas: "))
         columnas= int(input("Ingrese la cantidad de columnas: "))
 
@@ -36,6 +37,8 @@ if (opcionMenu!= "a" or opcionMenu!= "b" or opcionMenu!= "c"):
                  print ("*",end="")
             print("")
     
+    
+        
 
 
     
