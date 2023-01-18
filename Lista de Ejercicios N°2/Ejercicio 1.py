@@ -23,3 +23,23 @@ for i in range (1, filas):
     print("")
 
 ## Opcion b
+
+Numero = [24,50,12,9,3,6,7,15,150,149,115]
+
+if (opcionMenu!= "a" or opcionMenu!= "b" or opcionMenu!= "c"):
+    if opcionMenu =="a": 
+        filas= int(input("Ingrese la cantidad de filas: "))
+        columnas= int(input("Ingrese la cantidad de columnas: "))
+
+        for i in range (1, filas):
+            for j in range (1, columnas):
+                 print ("*",end="")
+            print("")
+    
+
+
+    
+    
+
+
+
