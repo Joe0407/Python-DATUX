@@ -12,37 +12,21 @@ print (msg)
 
 opcionMenu= input("Ingrese la opcion del Menu: ")
 
-## Realizando el cuadrado Opcion a
-
-filas= int(input("Ingrese la cantidad de filas: "))
-columnas= int(input("Ingrese la cantidad de columnas: "))
-
-for i in range (1, filas):
-    for j in range (1, columnas):
-        print ("*",end="")
-    print("")
-
-## Opcion b
-
-Numero = [24,50,12,9,3,6,7,15,150,149,115]
 
 if (opcionMenu!= "a" or opcionMenu!= "b" or opcionMenu!= "c"):
     
-    if opcionMenu =="a": ##Opcion a
-        filas= int(input("Ingrese la cantidad de filas: "))
-        columnas= int(input("Ingrese la cantidad de columnas: "))
+   if opcionMenu =="a": ##Opcion a
+       filas= int(input("Ingrese la cantidad de filas: "))
+       columnas= int(input("Ingrese la cantidad de columnas: "))
 
-        for i in range (1, filas):
-            for j in range (1, columnas):
+       for i in range (1, filas):
+           for j in range (1, columnas):
                  print ("*",end="")
-            print("")
+           print("")
+   elif opcionMenu == "b": ## Opcion b
+       Numero = [3,15,20,24,60,35,36]
+       if Numero % 2 == 0:
+            print ("El numero", Numero, "si es multiplo de 2")
+       else: 
+           print (" El numero", Numero , "no es multipo de 2")
     
-    
-        
-
-
-    
-    
-
-
-
