@@ -32,14 +32,13 @@ if (opcionMenu!= "a" or opcionMenu!= "b" or opcionMenu!= "c"):
                print ("El numero " , Numero , "es multiplo de 2")
            else :
                print("El numero " , Numero , "no es multiplo de 2")
-   elif opcionMenu== "c" : 
+   elif opcionMenu== "c" : #opcion c
        personas=[["Jorge",25],["Juan",15],["Kathy", 23],["Luis",18],["Manuel", 5]]
        personas_mayores=[] 
        
        for personas_mayores in personas:
-        if personas_mayores[2]>= 18 :
-                  print("Las personas con mayor a 18 años son: " , personas_mayores) 
-           
-else: 
-     print(" No se eligio ninguna opcion del menu")
+        if personas_mayores[1]>= 18 :
+            print("Las personas con mayor a 18 años son: " , personas_mayores)            
+else : 
+     print(" Elija la opcion correcta ")
         
