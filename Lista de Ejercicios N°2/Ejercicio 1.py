@@ -24,9 +24,13 @@ if (opcionMenu!= "a" or opcionMenu!= "b" or opcionMenu!= "c"):
                  print ("*",end="")
            print("")
    elif opcionMenu == "b": ## Opcion b
-       Numero = [3,15,20,24,60,35,36]
-       if Numero % 2 == 0:
-            print ("El numero", Numero, "si es multiplo de 2")
-       else: 
-           print (" El numero", Numero , "no es multipo de 2")
+       Numero = []
+       Agregar_numero= int(input("Ingrese un numero: "))
+       Numero.append(Agregar_numero)
+       for Agregar_numero in Numero:
+           if Agregar_numero%2==0 :
+               print ("El numero " , Numero , "es multiplo de 2")
+           else :
+               print("El numero " , Numero , "no es multiplo de 2")               
+      
     
