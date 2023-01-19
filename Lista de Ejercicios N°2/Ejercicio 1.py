@@ -31,6 +31,15 @@ if (opcionMenu!= "a" or opcionMenu!= "b" or opcionMenu!= "c"):
            if Agregar_numero%2==0 :
                print ("El numero " , Numero , "es multiplo de 2")
            else :
-               print("El numero " , Numero , "no es multiplo de 2")               
-      
-    
+               print("El numero " , Numero , "no es multiplo de 2")
+   elif opcionMenu== "c" : 
+       personas=[["Jorge",25],["Juan",15],["Kathy", 23],["Luis",18],["Manuel", 5]]
+       personas_mayores=[] 
+       
+       for personas_mayores in personas:
+        if personas_mayores[2]>= 18 :
+                  print("Las personas con mayor a 18 años son: " , personas_mayores) 
+           
+else: 
+     print(" No se eligio ninguna opcion del menu")
+        
