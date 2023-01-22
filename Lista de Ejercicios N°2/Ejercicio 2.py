@@ -38,6 +38,8 @@ Menu = input('Ingrese la opcion que desea ')
 if (Menu!= "a" or Menu!= "b" or Menu!= "c" or Menu != "d"):  
     if Menu == 'a' :
         print ("La lista de categorias son: " , Sistema['Categorias'])
+    if Menu =='b':
+        print 
     
     
     print ("")
