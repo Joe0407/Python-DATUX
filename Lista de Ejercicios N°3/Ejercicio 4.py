@@ -7,9 +7,9 @@ class Producto :
     ##Init 
     
     def __init__(self, Codigo , Descripcion, Precio , Proveedor):
-        self.Codigo = Codigo,
-        self.Descripcion = Descripcion,
-        self.Precio = Precio,
+        self.Codigo = Codigo
+        self.Descripcion = Descripcion
+        self.Precio = Precio
         self.Proveedor = Proveedor
         
         print ('Se ha agregado el siguiente Producto: {} '.format(self.Descripcion))
