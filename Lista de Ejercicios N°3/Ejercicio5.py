@@ -1,4 +1,4 @@
-##Creando funciones para el modulo 
+##Creando funciones para el modulo Ejercicio6.py
 
 ##Una función recursiva de suma de los n primeros números
 
@@ -17,12 +17,6 @@ def funRec_SumaNumeros(numero):
 
 
 
-numero= int(input("Ingrese el numero: "))
-funRec_SumaNumeros(numero)
-
-
-
-
 
 #Una función que me permita dividir 2 números.
 
@@ -33,6 +27,3 @@ def dividir(a,b):
         Resultado= a/b
         print("La division entre los numeros {} y {} es: {}".format(a,b,Resultado))
         
-a=int(input("Ingresa el primer valor: "))
-b=int(input("Ingresa el segundo valor: "))
-dividir(a,b)
