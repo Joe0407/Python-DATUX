@@ -20,10 +20,10 @@ e.Uppercase
 f.Lowercase
 """
 print (msg)
-print ("Recuerda: el texto es Manzana , Peras, Naranjas , Platanos ")
+print ("Recuerda: el texto es Lorem Ipsum ")
 opcionMenu= input("Ingrese la opcion del Menu: ")
 
-txt="Manzana , Peras, Naranjas , Platanos"
+txt="Lorem Ipsum"
 
 if (opcionMenu!="a" or opcionMenu !="b" or opcionMenu!="c" or opcionMenu!= "d" or opcionMenu!= "e" or opcionMenu!="f" ):
 
@@ -31,7 +31,7 @@ if (opcionMenu!="a" or opcionMenu !="b" or opcionMenu!="c" or opcionMenu!= "d" o
         print(txt.split(","))
     
     elif (opcionMenu=="b"):
-        print("__".join(txt.split(",")))
+        print("__".join(txt.split()))
         
     elif (opcionMenu=="c"): # devuelve el número de ocurrencias de una subcadena en la cadena dada.
         Sub_string=input("Ingrese la letra o palabra que desea contar: ")
