@@ -35,11 +35,11 @@ class Catalogo:
             print (p)
         
         
-p = Producto("P0001", "Lapiceros", 5.00 , "Caleb")
+p = Producto("P0001", "Llantas", 35.00 , "Hyundai")
 c= Catalogo([p])
 c.mostrar()
 
 ##Agregar datos
 
-c.agregar(Producto("P0002" , "Cuadernos" , 3.50 , "Loro"))
+c.agregar(Producto("P0002" , "Espejo retrovisor" , 5.50 , ""))
 c.mostrar()
